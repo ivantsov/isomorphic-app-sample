@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node server",
-    "start-hot-loader": "node server/webpack"
+    "start-assets": "node server/webpack"
   },
   "license": "MIT",
   "keywords": [
