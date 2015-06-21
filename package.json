@@ -1,0 +1,38 @@
+{
+  "name": "isomorphic-app-sample",
+  "version": "0.0.1",
+  "description": "Isomorphic app sample based on React, Flux and react-router",
+  "author": {
+    "name": "Alexander Ivantsov",
+    "email": "alexivantsov@ya.ru",
+    "url": "http://aivantsov.com"
+  },
+  "scripts": {
+    "start": "node server",
+    "start-hot-loader": "node server/webpack"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "flux",
+    "react-router",
+    "server rendering",
+    "isomorphic"
+  ],
+  "devDependencies": {
+    "babel-core": "^5.6.1",
+    "babel-loader": "^5.1.4",
+    "react-hot-loader": "^1.2.7",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0",
+    "babel": "^5.6.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.13.0",
+    "fluxxor": "^1.6.0",
+    "isomorphic-fetch": "^2.1.0",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  }
+}
