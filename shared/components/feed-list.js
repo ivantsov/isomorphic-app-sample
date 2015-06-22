@@ -52,7 +52,10 @@ var FeedList = React.createClass({
         };
     },
     componentDidMount() {
-        this.getFlux().actions.loadFeeds();
+        // if store has no elements or only one - load new
+        if (this.state.items.length < 2) {
+            this.getFlux().actions.loadFeeds();
+        }
     },
     render() {
         var items = this.state.items.map(item => <FeedListItem key={item.id} {...item}/>);
