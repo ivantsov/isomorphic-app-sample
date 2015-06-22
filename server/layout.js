@@ -22,7 +22,7 @@ var Layout = React.createClass({
             <body>
             <div id="app" dangerouslySetInnerHTML={{__html: component}}/>
 
-            <script src="http://localhost:3001/bundle.js"></script>
+            <script src="/assets/bundle.js"></script>
             </body>
             </html>
         );

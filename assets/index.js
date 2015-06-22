@@ -1,7 +1,7 @@
 var React = require('react');
 var Router = require('react-router');
-var routes = require('./shared/routes');
-var flux = require('./shared/flux')();
+var routes = require('../shared/routes');
+var flux = require('../shared/flux')();
 
 require('babel/polyfill');
 require('isomorphic-fetch');
