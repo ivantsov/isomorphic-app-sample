@@ -8,8 +8,8 @@
     "url": "http://aivantsov.com"
   },
   "scripts": {
-    "start": "node server",
-    "build": "./node_modules/.bin/webpack"
+    "postinstall": "./node_modules/.bin/webpack",
+    "start": "node server"
   },
   "license": "MIT",
   "keywords": [
